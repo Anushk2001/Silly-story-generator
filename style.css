@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(to right, rgb(9, 102, 139), rgb(8, 176, 182));
+}
+.Card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  border: 1px solid black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.customName {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.customName__info {
+  font-size: 23px;
+  margin-right: 5px;
+  color: rgb(14, 1, 59);
+}
+.country__select {
+  font-size: 23px;
+  /* margin-right: 10px; */
+  color: rgb(231, 9, 9);
+}
+.button {
+  font-size: 15px;
+  font-weight: 800;
+  border-radius: 15px;
+  border: 5px solid rgb(38, 0, 255);
+  color: rgb(15, 128, 90);
+  background-color: rgb(170, 15, 157);
+}
+.country {
+  margin-bottom: 20px;
+}
+.storyTeller > p {
+  font-size: 20px;
+  color: rgb(49, 9, 143);
+  background-color: rgb(170, 184, 49);
+}
